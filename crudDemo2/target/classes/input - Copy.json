@@ -1,0 +1,41 @@
+[
+	{
+		"ModuleName": "INSTITUTION",
+		"Fields": [
+			{
+				"name": "INSTITUTION_ID",
+				"type": "text",
+				"primaryKey": "true",
+				"validation": {
+					"pattern": "MAN",
+					"maximum": 50
+				}
+			},
+			{
+				"name": "INSTITUTION_NAME",
+				"type": "text",
+				"validation": {
+					"pattern": "MAN",
+					"maximum": 50
+				}
+			},
+			{
+				"name": "EMAIL",
+				"type": "text",
+				"validation": {
+					"pattern": "ME",
+					"maxLength": 50
+				}
+			},
+			{
+				"name": "PHONE_NUMBER",
+				"primaryKey": "true",
+				"type": "text",
+				"validation": {
+					"pattern": "MT",
+					"maxLength": 50
+		}
+			}
+		]
+	}
+]

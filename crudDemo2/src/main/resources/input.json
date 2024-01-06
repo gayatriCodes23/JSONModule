@@ -1,0 +1,84 @@
+[
+	{
+		"ModuleName": "USER",
+		"Fields": [
+			{
+				"name": "NAME",
+				"type": "text",
+				"primaryKey": "true",
+				"validation": {
+					"pattern": "MA",
+					"maximum": 20
+				}
+			},
+			{
+				"name": "MOBILE_NUMBER",
+				"primaryKey": "true",
+				"type": "text",
+				"validation": {
+					"pattern": "MT"
+				}
+			},
+			{
+				"name": "CITY",
+				"type": "dropdown",
+				"validation": {
+					"pattern": "MA"
+			}
+			},
+			{
+				"name": "AGE",
+				"type": "dropdown",
+				"validation": {
+					"pattern": "MN",
+					"minimum": 1,
+					"maximum": 3
+				}
+			},
+			{
+				"name": "GENDER",
+				"type": "radio",
+				"validation": {
+					"pattern": "MA"
+				}
+			}
+		]
+	},
+	{
+		"ModuleName": "INSTITUTION",
+		"Fields": [
+			{
+				"name": "INSTITUTION_ID",
+				"type": "text",
+				"primaryKey": "true",
+				"validation": {
+					"pattern": "MAN",
+					"maximum": 50
+				}
+			},
+			{
+				"name": "INSTITUTION_NAME",
+				"type": "text",
+				"validation": {
+					"pattern": "MAN",
+					"maximum": 50
+				}
+			},
+			{
+				"name": "EMAIL",
+				"type": "text",
+				"validation": {
+					"pattern": "ME"
+					}
+			},
+			{
+				"name": "PHONE_NUMBER",
+				"primaryKey": "true",
+				"type": "text",
+				"validation": {
+					"pattern": "MT"
+			}
+			}
+		]
+	}
+]
